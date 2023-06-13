@@ -1,38 +1,48 @@
 package org.example;
 
 import org.example.model.Contato;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
-
-import java.util.ArrayList;
-import java.util.List;
 
 class ContatoTest {
 
-    @Test
-    public void buscarUmContato() {
+    private Contato contato;
+
+    @AfterEach
+    public void instanciaContato() {
         Contato contato = new Contato();
+    }
+
+
+    @Test
+    void buscarUmContato() {
+        instanciaContato();
         buscarUmContato();
     }
 
 
     @Test
-    public void cadastraContato() {
-        List<Contato> cadastrar = new ArrayList<>();
-        cadastrar.add(new Contato(1L, "Leticia", 999999999));
+    void cadastraContato() {
+        instanciaContato();
+        contato.setNome("Leticia");
+        contato.setNumero(999999999);
         cadastraContato();
 
     }
 
     @Test
-    public void atualizarContato() {
-        Contato contato = new Contato();
+    void atualizarContato() {
+        instanciaContato();
+        contato.setNome("Rafael");
+        contato.setNumero(888888888);
         atualizarContato();
     }
 
     @Test
-    public void deletarConato() {
-        Contato contato = new Contato();
-        deletarConato();
+    void deletarContato() {
+        instanciaContato();
+        contato.getId();
+        deletarContato();
     }
 
 }
