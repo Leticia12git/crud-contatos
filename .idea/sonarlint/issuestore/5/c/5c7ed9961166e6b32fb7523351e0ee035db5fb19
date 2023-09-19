@@ -1,0 +1,19 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(öó¾ïøÿÿÿÿ8ü“˜×1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ËØÍ¶ûÿÿÿÿ8ı“˜×1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(öó¾ïøÿÿÿÿ8ı“˜×1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(œ®Ç8ı“˜×1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Æ¾ò8ı“˜×1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¦˜Àüÿÿÿÿ8ı“˜×1
+T	java:S106"9Replace this use of System.out or System.err by a logger.(üŒæo8ş“˜×1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(‚ã‘ü8ş“˜×1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ò·œÇ8ş“˜×1
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(²¨¤Ïùÿÿÿÿ8ÿ“˜×1
+J
+java:S2201'"(The return value of "size" must be used.(ƒÉüÿÿÿÿ8ÿ“˜×1
+I
+java:S2201*",The return value of "contains" must be used.(ÔÂÕ¸8ÿ“˜×1
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(ªì¹†ûÿÿÿÿ8”˜×1
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(ªì¹†ûÿÿÿÿ8‚”˜×1
+Z	java:S1063"9Replace this use of System.out or System.err by a logger.(É­¾Ùûÿÿÿÿ8ƒ”˜×1
+Z	java:S1064"9Replace this use of System.out or System.err by a logger.(Şš¶Ûıÿÿÿÿ8ƒ”˜×1

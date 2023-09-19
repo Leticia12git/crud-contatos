@@ -1,44 +1,43 @@
-package br.com.contatos.model;
+package br.com.contatos.domain;
 
 import java.util.Objects;
 
 public class Contato {
 
     private String nome;
-    private String numero;
+    private int numero;
     private String email;
 
     public Contato() {
     }
 
-    public Contato(String nome, String numero, String email) {
+    public Contato(String nome, int numero, String email) {
         this.nome = nome;
         this.numero = numero;
         this.email = email;
+    }
+
+    public Contato(String nome, int numero) {
     }
 
     public String getNome() {
         return nome;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
 
-    public String getNumero() {
+
+    public int getNumero() {
         return numero;
     }
 
-    public void setNumero(String numero) {
-        this.numero = numero;
-    }
+
 
     public String getEmail() {
         return email;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setNumero(int numero) {
+        this.numero = numero;
     }
 
     @Override
@@ -62,4 +61,6 @@ public class Contato {
                 ", email='" + email + '\'' +
                 '}';
     }
+
+
 }
